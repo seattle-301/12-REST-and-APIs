@@ -1,9 +1,10 @@
 (function(module) {
-  var articleController = {};
+  var articleController = {
 
-  articleController.index = function() {
-    $('.tab-content').hide();
-    $('#articles').fadeIn();
+    index: function() {
+      $('.tab-content').hide();
+      $('#articles').fadeIn();
+    }
   };
 
   module.articleController = articleController;
